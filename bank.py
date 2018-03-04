@@ -46,7 +46,7 @@ sel.fit(X_cat, y)
 score = (sel.scores_)
 X_cat = sel.transform(X_cat)
 
-#Too much of ordinal data and if it were to be one hot encoded and having applied a linear model it'd take too much time for training 
+#Too much of ordinal data and if it were to be one hot encoded and having applied a linear model would've taken too much time for training 
 from sklearn.ensemble import RandomForestClassifier
 clf1 = RandomForestClassifier(n_estimators = 300)
 

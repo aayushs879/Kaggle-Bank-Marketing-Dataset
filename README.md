@@ -1,3 +1,4 @@
 # Kaggle-Bank-Marketing-Dataset
-Find the best strategies to improve for the next marketing campaign. How can the financial institution have a greater effectiveness for future marketing campaigns? In order to answer this, we have to analyze the last marketing campaign the bank performed and identify the patterns that will help us find conclusions in order to develop future strategies. Aim is to find a model to predict term deposit Subscriptions.
+Dataset consisted of details of customers of bank and campaing strategies based on which their term deposit subscriptions is to be predicted.
 Implemented A random forest classifier as the features were mostly ordinal so as to find the best model a tree version is to be implemented. Performed Feature Selection first on the basis of chi squared technique as most features were ordinal or categorical.
+Got an accuracy of 83% on the test set
